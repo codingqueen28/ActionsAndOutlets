@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func submitButtonTapped(_ sender: UIButton) {
         
         if let newTitle = textfield.text {
-            songquestion.text = newTitle
+            songquestion.text = "You are \(newTitle) years old."
         }
     }
     
